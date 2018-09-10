@@ -342,7 +342,7 @@ export class SearchFormImpl extends React.PureComponent {
           />
         </FormItem>
 
-        <Button htmlType="submit" disabled={disabled || noSelectedService} data-test={markers.SUBMIT_BTN}>
+        <Button htmlType="submit" disabled={disabled} data-test={markers.SUBMIT_BTN}>
           Find Traces
         </Button>
       </Form>
